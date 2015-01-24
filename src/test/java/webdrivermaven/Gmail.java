@@ -24,6 +24,8 @@ public class Gmail {
 	public void Test()
 	{
 		driver.findElement(By.id("Email")).sendKeys("Test@test.com");
+		driver.findElement(By.id("Passwd")).sendKeys("Password");
+		
 		
 	}
 	
