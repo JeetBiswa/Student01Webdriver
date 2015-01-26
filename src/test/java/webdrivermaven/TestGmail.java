@@ -1,5 +1,7 @@
 package webdrivermaven;
 
+import junit.framework.Assert;
+
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -28,6 +30,18 @@ public class TestGmail {
 		
 		
 	}
+	
+	@Test
+	public void TestAssert()
+	{
+		Assert.assertEquals(100, 100);
+		
+		
+	}
+	
+	
+	
+	
 	
 	@After
 	public void TearDown()
